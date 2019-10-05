@@ -1,0 +1,250 @@
+﻿body {
+
+}
+
+#container{
+    height:auto;
+    width:100%;
+    background-color:whitesmoke;
+}
+
+#header{
+    height:150px;
+    width: 100%;
+    background-color:white;
+}
+
+#main-header {
+    height: 140px;
+    width: 100%;
+    background-color: red;
+}
+#logo {
+    width: auto;
+    font-weight:bolder;
+    font-size:50px;
+}
+
+#daily {
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+#subheader {
+    width: 100%;
+    height: 30px;
+    color: black;
+    margin-top: -15px;
+}
+
+    #subheader p {
+        float: left;
+        margin-top: 7px;
+        margin-left:10px;
+    }
+
+
+    #subheader a {
+        float: right;
+        line-height: 30px;
+        color: black;
+        text-decoration: none;
+        margin-left: 30px;
+        padding-right:15px;
+    }
+
+
+
+#menu {
+    height: 20px;
+    width: 100%;
+    background-color: black;
+
+}
+
+nav {
+    width: 100%;
+    float:left;
+    margin-left:1px
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    padding:10px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+    opacity:0.8;
+}
+
+#footer{
+    height:300px;
+    width:100%;
+    background-color:black;
+}
+
+#main{
+    height:1040px;
+    width:100%;
+}
+
+#latest{
+    height:30px;
+    width:100%;
+    background-color:gainsboro;
+    color:red;
+}
+
+marquee{
+    margin-top:5px;
+}
+
+#date{
+    font-weight:bold;
+    font-size:20px;
+    padding-left:15px;
+}
+
+#socialIcon img{
+    height:25px;
+    width:25px;
+    padding-left:40px;
+    padding-top:30px;
+    padding-bottom:20px;
+    margin-left:250px;
+    opacity:0.7;
+    cursor:pointer;
+}
+#socialIcon img:hover {
+    opacity:1;
+}
+
+#footermenu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footermenu a {
+    text-decoration: none;
+    color: lightgray;
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 30px;
+    opacity:0.7;
+}
+
+#footermenu a:hover {
+    text-decoration:underline;
+    opacity:1;
+}
+/*========================================= copy right ===================================*/
+#copyright{
+    color:white;
+    text-align:center;
+}
+/*========================= first Section =======================*/
+#headline {
+    height: auto;
+    width: 50%;
+    float: left;
+
+}
+
+
+#headline a{
+    text-decoration: none;
+    color: black;
+}
+
+#headline a h1 {
+    text-decoration:none;
+    color:black;
+}
+
+#headline a h1:hover {
+    text-decoration:underline;
+    color:black;
+}
+
+#headline a h3:hover {
+    text-decoration:underline;
+    color:black;
+    cursor:pointer;
+}
+
+#latestNews{
+    height:auto;
+    width:20%;
+    float:left;
+}
+
+
+
+/*=========================================== second section ===========================================*/
+#latestNews img{
+    height:100px;
+    width:220px;
+    margin:5px 10px 5px 30px;
+}
+
+#latestNews h4 {
+     margin: 5px 10px 5px 30px;
+}
+
+#latestNews a {
+     text-decoration:none;
+     color:black;
+}
+
+#latestNews a:hover {
+     text-decoration:underline;
+     color:black;
+}
+
+
+/*================================================= Drowp Down ==============================*/
+.dropbtn {
+    background-color: black;
+    color: white;
+    font-weight:bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: white;
+        padding: 5px 8px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            text-decoration:underline;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    text-decoration:underline;
+    opacity:0.7;
+}
